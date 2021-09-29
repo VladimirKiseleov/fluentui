@@ -479,8 +479,8 @@ export class ScrollablePaneBase
     const { contentContainer } = this;
     return contentContainer ? contentContainer.offsetHeight - contentContainer.clientHeight : 0;
   }
-
-  private _onScroll = () => {
+  // #2 Изменения по скроллу
+  private _onScroll = (e) => {
     const { contentContainer } = this;
 
     if (contentContainer) {
@@ -490,5 +490,6 @@ export class ScrollablePaneBase
     }
 
     this._notifyThrottled();
+    this.props.onScroll && this.props.onScroll(e);
   };
 }
