@@ -480,7 +480,7 @@ export class ScrollablePaneBase
     return contentContainer ? contentContainer.offsetHeight - contentContainer.clientHeight : 0;
   }
   // #2 Изменения по скроллу
-  private _onScroll = (e) => {
+  private _onScroll = (event: React.UIEvent<HTMLElement>) => {
     const { contentContainer } = this;
 
     if (contentContainer) {
@@ -490,6 +490,6 @@ export class ScrollablePaneBase
     }
 
     this._notifyThrottled();
-    this.props.onScroll && this.props.onScroll(e);
+    this.props.onScroll && this.props.onScroll(event);
   };
 }

@@ -1,8 +1,8 @@
 {
-  "name": "fluentui-react-isys",
+  "name": "@zforms/fluentui-react",
   "version": "1.0.0",
   "description": "Reusable React components for building experiences for Microsoft 365.",
-  "private": false,
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/VladimirKiseleov/fluentui"

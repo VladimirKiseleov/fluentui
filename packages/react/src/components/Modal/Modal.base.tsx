@@ -427,7 +427,11 @@ export const ModalBase: React.FunctionComponent<IModalProps> = React.forwardRef<
             )}
           </div>
         )}
-        <div ref={allowScrollOnModal} className={classNames.scrollableContent} data-is-scrollable={props.enableInnerTouchMove}>
+        <div
+          ref={allowScrollOnModal}
+          className={classNames.scrollableContent}
+          data-is-scrollable={props.enableInnerTouchMove}
+        >
           {dragOptions && isModalMenuOpen && (
             <dragOptions.menu
               items={[

@@ -68,6 +68,12 @@ export interface IDialogProps
   isOpen?: boolean;
 
   /**
+   * Whether the dialog is scrollable.
+   * @defaultvalue true
+   */
+  enableInnerTouchMove?: boolean;
+
+  /**
    * Whether the overlay is dark themed.
    * @defaultvalue true
    * @deprecated Pass through via `modalProps` instead

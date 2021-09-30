@@ -4184,6 +4184,7 @@ export interface IDialogProps extends React_2.ClassAttributes<DialogBase>, IWith
     // @deprecated
     contentClassName?: string;
     dialogContentProps?: IDialogContentProps;
+    enableInnerTouchMove?: boolean;
     hidden?: boolean;
     // @deprecated
     isBlocking?: boolean;
@@ -6012,6 +6013,7 @@ export interface IModalProps extends React_2.RefAttributes<HTMLDivElement>, IAcc
     containerClassName?: string;
     dragOptions?: IDragOptions;
     enableAriaHiddenSiblings?: boolean;
+    enableInnerTouchMove?: boolean;
     isAlert?: boolean;
     isBlocking?: boolean;
     isDarkOverlay?: boolean;
