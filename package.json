@@ -1,11 +1,11 @@
 {
-  "name": "@fluentui/react-isys",
+  "name": "fluentui-react-isys",
   "version": "1.0.0",
   "description": "Reusable React components for building experiences for Microsoft 365.",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/VladimirKiseleov/fluentui"
   },
   "scripts": {
     "a11ytest": "cd apps && cd a11y-tests && yarn test",
