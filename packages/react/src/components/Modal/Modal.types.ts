@@ -80,6 +80,12 @@ export interface IModalProps extends React.RefAttributes<HTMLDivElement>, IAcces
   isOpen?: boolean;
 
   /**
+   * Whether the dialog is scrollable.
+   * @defaultvalue true
+   */
+   enableInnerTouchMove?: boolean;
+
+  /**
    * Whether the overlay is dark themed.
    * @defaultvalue true
    */

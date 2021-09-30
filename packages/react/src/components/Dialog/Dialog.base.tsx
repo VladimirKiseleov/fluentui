@@ -66,6 +66,7 @@ export class DialogBase extends React.Component<IDialogProps, {}> {
   public render(): JSX.Element {
     const {
       /* eslint-disable deprecation/deprecation */
+      enableInnerTouchMove,
       className,
       containerClassName,
       contentClassName,
@@ -155,6 +156,7 @@ export class DialogBase extends React.Component<IDialogProps, {}> {
 
     return (
       <Modal
+      enableInnerTouchMove={enableInnerTouchMove}
         elementToFocusOnDismiss={elementToFocusOnDismiss}
         firstFocusableSelector={firstFocusableSelector}
         forceFocusInsideTrap={forceFocusInsideTrap}

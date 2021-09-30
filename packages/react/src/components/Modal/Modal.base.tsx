@@ -59,6 +59,7 @@ const DEFAULT_PROPS: Partial<IModalProps> = {
   isDarkOverlay: true,
   className: '',
   containerClassName: '',
+  enableInnerTouchMove: true,
 };
 
 const getClassNames = classNamesFunction<IModalStyleProps, IModalStyles>();
@@ -401,7 +402,7 @@ export const ModalBase: React.FunctionComponent<IModalProps> = React.forwardRef<
 
     useComponentRef(props, focusTrapZone);
     useDebugWarnings(props);
-
+    // #1 Изменения по модалке должны быть тут
     const modalContent = (
       <FocusTrapZone
         id={focusTrapZoneId}
@@ -426,7 +427,7 @@ export const ModalBase: React.FunctionComponent<IModalProps> = React.forwardRef<
             )}
           </div>
         )}
-        <div ref={allowScrollOnModal} className={classNames.scrollableContent} data-is-scrollable>
+        <div ref={allowScrollOnModal} className={classNames.scrollableContent} data-is-scrollable={props.enableInnerTouchMove}>
           {dragOptions && isModalMenuOpen && (
             <dragOptions.menu
               items={[
