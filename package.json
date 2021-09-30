@@ -1,8 +1,8 @@
 {
-  "name": "fluent-ui-react-repo",
+  "name": "@fluentui/react-isys",
   "version": "1.0.0",
   "description": "Reusable React components for building experiences for Microsoft 365.",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/microsoft/fluentui"
