@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/font-icons-mdl2",
+  "name": "@zforms/fluentui-react-font-icons-mdl2",
   "version": "8.1.12",
   "description": "Fluent UI React icon set.",
   "main": "lib-commonjs/index.js",

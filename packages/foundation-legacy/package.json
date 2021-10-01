@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/foundation-legacy",
+  "name": "@zforms/fluentui-react-foundation-legacy",
   "version": "8.1.12",
   "description": "Legacy utilities for building Fluent UI React components.",
   "main": "lib-commonjs/index.js",

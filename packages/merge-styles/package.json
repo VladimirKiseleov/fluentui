@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/merge-styles",
+  "name": "@zforms/fluentui-react-merge-styles",
   "version": "8.2.0",
   "description": "Style loading utilities.",
   "main": "lib-commonjs/index.js",

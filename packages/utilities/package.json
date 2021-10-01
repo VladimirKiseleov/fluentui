@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/utilities",
+  "name": "@zforms/fluentui-react-utilities",
   "version": "8.3.3",
   "description": "Fluent UI React utilities for building components.",
   "main": "lib-commonjs/index.js",

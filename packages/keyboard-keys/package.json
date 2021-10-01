@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/keyboard-keys",
+  "name": "@zforms/fluentui-react-keyboard-keys",
   "version": "9.0.0-alpha.3",
   "description": "Contains a set of keyboard constants for key and keyCode",
   "main": "lib-commonjs/index.js",

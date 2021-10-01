@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/date-time-utilities",
+  "name": "@zforms/fluentui-react-date-time-utilities",
   "version": "8.2.2",
   "description": "Date-time utilities",
   "main": "lib-commonjs/index.js",

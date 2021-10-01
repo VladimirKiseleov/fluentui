@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-focus",
+  "name": "@zforms/fluentui-react-focus",
   "version": "8.3.1",
   "description": "Focus helpers to be used in React applications.",
   "main": "lib-commonjs/index.js",

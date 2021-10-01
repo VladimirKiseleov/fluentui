@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-window-provider",
+  "name": "@zforms/fluentui-react-window-provider",
   "version": "2.1.4",
   "description": "Utilities for providing and consuming the window/document objects even across portal/iframe/child-window boundaries.",
   "main": "lib-commonjs/index.js",

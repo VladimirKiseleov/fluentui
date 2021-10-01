@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/set-version",
+  "name": "@zforms/fluentui-react-set-version",
   "version": "8.1.4",
   "description": "Non-Fabric-specific package version setter",
   "main": "lib-commonjs/index.js",

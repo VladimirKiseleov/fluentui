@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/theme",
+  "name": "@zforms/fluentui-react-theme",
   "version": "2.4.0",
   "description": "Basic building blocks for Fluent UI React Component themes",
   "main": "lib-commonjs/index.js",

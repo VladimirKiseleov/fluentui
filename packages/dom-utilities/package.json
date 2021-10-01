@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/dom-utilities",
+  "name": "@zforms/fluentui-react-dom-utilities",
   "version": "2.1.4",
   "description": "DOM utilities for use within Fluent web components",
   "main": "lib-commonjs/index.js",
