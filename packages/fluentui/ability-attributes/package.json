@@ -1,7 +1,7 @@
 {
   "name": "@fluentui/ability-attributes",
   "description": "Accessibility attributes schema for Fluent UI",
-  "version": "0.59.0",
+  "version": "0.59.1-beta.1",
   "author": "Marat Abdullin <marata@microsoft.com>",
   "bugs": "https://github.com/microsoft/fluentui/issues",
   "dependencies": {
@@ -28,5 +28,6 @@
     "schema": "allyschema -c \"process.env.NODE_ENV !== 'production'\" schema.json > ./src/schema.ts"
   },
   "sideEffects": false,
-  "types": "dist/es/index.d.ts"
+  "types": "dist/es/index.d.ts",
+  "gitHead": "df654c2fee26a7b13e563cab03b9dfd640b3ea17"
 }

@@ -16,11 +16,11 @@ export function fluentuiLernaPublish(bumpType, skipConfirm = false, npmTagForCan
       lernaPublishArgs = [
         'lerna',
         'publish',
-        "--tag-version-prefix='@fluentui/react-northstar_v'", // HEADS UP: also see yarn stats:save in azure-pipelines.perf-test.yml
+        "--tag-version-prefix='@zforms/fluentui-react-northstar_v'", // HEADS UP: also see yarn stats:save in azure-pipelines.perf-test.yml
         '--no-git-reset',
         '--force-publish',
         '--registry',
-        'https://registry.npmjs.org',
+        'http://npm-zforms.i-sys.ru',
         '--no-verify-access', // Lerna doesn't work with NPM automation tokens (https://github.com/lerna/lerna/issues/2788)
         bumpType,
       ];
@@ -33,12 +33,12 @@ export function fluentuiLernaPublish(bumpType, skipConfirm = false, npmTagForCan
         'lerna',
         'publish',
         'prerelease',
-        "--tag-version-prefix='@fluentui/react-northstar_v'",
+        "--tag-version-prefix='@zforms/fluentui-react-northstar_v'",
         '--no-git-tag-version',
         '--no-git-reset',
         '--force-publish',
         '--registry',
-        'https://registry.npmjs.org',
+        'http://npm-zforms.i-sys.ru',
         '--dist-tag',
         npmTagForCanary,
         '--preid',

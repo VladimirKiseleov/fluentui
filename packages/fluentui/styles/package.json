@@ -1,7 +1,7 @@
 {
   "name": "@fluentui/styles",
   "description": "A set of styling utilities for CSS-in-JS.",
-  "version": "0.59.0",
+  "version": "0.59.1-beta.1",
   "author": "Marija Najdova <mnajdova@gmail.com>",
   "bugs": "https://github.com/microsoft/fluentui/issues",
   "dependencies": {
@@ -36,5 +36,6 @@
     "test:watch": "gulp test:watch"
   },
   "sideEffects": false,
-  "types": "dist/es/index.d.ts"
+  "types": "dist/es/index.d.ts",
+  "gitHead": "df654c2fee26a7b13e563cab03b9dfd640b3ea17"
 }

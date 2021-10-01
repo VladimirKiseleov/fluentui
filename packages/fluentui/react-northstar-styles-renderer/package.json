@@ -1,11 +1,11 @@
 {
   "name": "@fluentui/react-northstar-styles-renderer",
   "description": "A noop renderer for FluentUI React Northstar with typings.",
-  "version": "0.59.0",
+  "version": "0.59.1-beta.1",
   "bugs": "https://github.com/microsoft/fluentui/issues",
   "dependencies": {
     "@babel/runtime": "^7.10.4",
-    "@fluentui/styles": "^0.59.0"
+    "@fluentui/styles": "^0.59.1-beta.1"
   },
   "devDependencies": {
     "@fluentui/eslint-plugin": "*",
@@ -36,5 +36,6 @@
     "lint:fix": "yarn lint --fix"
   },
   "sideEffects": false,
-  "types": "dist/es/index.d.ts"
+  "types": "dist/es/index.d.ts",
+  "gitHead": "df654c2fee26a7b13e563cab03b9dfd640b3ea17"
 }

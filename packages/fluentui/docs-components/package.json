@@ -1,7 +1,7 @@
 {
   "name": "@fluentui/docs-components",
   "description": "A set of React components to build docs sites.",
-  "version": "0.59.0",
+  "version": "0.59.1-beta.1",
   "author": "Oleksandr Fediashov <a@fedyashov.com>",
   "bugs": "https://github.com/microsoft/fluentui/issues",
   "dependencies": {
@@ -47,5 +47,6 @@
     "lint:fix": "yarn lint --fix"
   },
   "sideEffects": false,
-  "types": "dist/es/index.d.ts"
+  "types": "dist/es/index.d.ts",
+  "gitHead": "df654c2fee26a7b13e563cab03b9dfd640b3ea17"
 }

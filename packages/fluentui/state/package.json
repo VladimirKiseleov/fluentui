@@ -1,7 +1,7 @@
 {
   "name": "@fluentui/state",
   "description": "A set of utils to create framework agnostic and reusable state managers",
-  "version": "0.59.0",
+  "version": "0.59.1-beta.1",
   "author": "Oleksandr Fediashov <a@fedyashov.com>",
   "bugs": "https://github.com/microsoft/fluentui/issues",
   "dependencies": {
@@ -32,5 +32,6 @@
     "test:watch": "gulp test:watch"
   },
   "sideEffects": false,
-  "types": "dist/es/index.d.ts"
+  "types": "dist/es/index.d.ts",
+  "gitHead": "df654c2fee26a7b13e563cab03b9dfd640b3ea17"
 }
